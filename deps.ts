@@ -11,6 +11,7 @@ export {
 export { z } from "https://deno.land/x/zod@v3.20.5/mod.ts";
 
 export * as log from "https://deno.land/std@0.176.0/log/mod.ts";
+export * as semver from "https://deno.land/std@0.176.0/semver/mod.ts";
 
 export {
   default as lodashMerge,

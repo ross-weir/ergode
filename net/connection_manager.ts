@@ -101,9 +101,7 @@ export class ConnectionManager extends Component<ConnectionManagerEvents> {
   }
 
   stop(): Promise<void> {
-    if (this.#autoDialHandle) {
-      clearInterval(this.#autoDialHandle);
-    }
+    clearInterval(this.#autoDialHandle);
 
     // for all connections - close
 
